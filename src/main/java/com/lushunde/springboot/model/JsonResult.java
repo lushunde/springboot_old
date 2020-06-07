@@ -3,14 +3,12 @@ package com.lushunde.springboot.model;
 import java.io.Serializable;
 
 /**
- * 
- * @模块名：springboot
- * @包名：     model
- * @类名称：JsonResult
- * @类描述：所有返回json給前端JSON包装类
- * @版本：      1.0
- * @创建人：bellus
- * @创建时间：2019年6月22日上午2:27:45
+ * @node 所有返回json給前端JSON包装类
+ * @package springboot com.lushunde.springboot.model 
+ * @version 1.0
+ * @date 2020年6月7日
+ * @author bellus
+ * @since JDK1.8
  */
 public class JsonResult implements Serializable{
 	private static final long serialVersionUID = -3961047474891959005L;

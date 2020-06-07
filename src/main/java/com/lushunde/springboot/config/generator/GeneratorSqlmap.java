@@ -9,9 +9,23 @@ import org.mybatis.generator.api.MyBatisGenerator;
 import org.mybatis.generator.config.Configuration;
 import org.mybatis.generator.config.xml.ConfigurationParser;
 import org.mybatis.generator.internal.DefaultShellCallback;
-
+/**
+ * 
+ * @node 
+ * @package springboot com.lushunde.springboot.config.generator 
+ * @version 1.0
+ * @date 2020年6月7日
+ * @author bellus
+ * @since JDK1.8
+ */
 public class GeneratorSqlmap {
 
+	
+	/**
+	 * 实用mybatis反向生成入口
+	 * @throws Exception
+	 * @author： bellus 2020年6月7日
+	 */
     public void generator() throws Exception{
 
         List<String> warnings = new ArrayList<String>();

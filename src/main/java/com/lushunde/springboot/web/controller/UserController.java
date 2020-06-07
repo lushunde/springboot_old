@@ -19,6 +19,16 @@ import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiResponse;
 import io.swagger.annotations.ApiResponses;
 
+
+/**
+ * 用户操作
+ * @node 
+ * @package springboot com.lushunde.springboot.web.controller 
+ * @version 1.0
+ * @date 2020年6月7日
+ * @author bellus
+ * @since JDK1.8
+ */
 @RestController
 @RequestMapping("/user")
 @Api(tags="用户管理")

@@ -5,7 +5,23 @@ import com.lushunde.model.PermissionExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 
+/**
+ * 
+ * @node 
+ * @package springboot  
+ * @version 1.0
+ * @date 2020年6月7日
+ * @author bellus
+ * @since JDK1.8
+ */
 public interface PermissionMapper {
+	
+	/**
+	 * 
+	 * @param example
+	 * @return
+	 * @author： bellus 2020年6月7日
+	 */
     long countByExample(PermissionExample example);
 
     int deleteByExample(PermissionExample example);

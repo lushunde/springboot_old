@@ -6,14 +6,13 @@ import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 
 /**
- * 
- * @模块名：springboot
- * @包名：     model
- * @类名称：User
- * @类描述：用户信息
- * @版本：      1.0
- * @创建人：bellus
- * @创建时间：2019年6月22日上午2:41:35
+ * 用户
+ * @node 
+ * @package springboot com.lushunde.springboot.model 
+ * @version 1.0
+ * @date 2020年6月7日
+ * @author bellus
+ * @since JDK1.8
  */
 @ApiModel(value="User",description="用户")
 public class User implements Serializable{
